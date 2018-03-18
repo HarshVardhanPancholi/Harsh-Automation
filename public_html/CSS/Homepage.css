@@ -3,25 +3,31 @@
     Author     : HARSH VARDHAN
 */
 
-
-.school-header {
-    padding-top: 75px;
+/*Heading ribbon*/
+.school-header{
     text-align: center;
+    position: relative;
     color: #ffffcc;
     float: left;
-    font-size: 300%;
+    font-size: 35px;
     font-weight: bold;
-    height: 200px;
-    width: 1165px;
-    margin-top: -20px;
-    box-sizing: border-box;
+    height: 130px;
+    width: 88.4%;
+    margin-top: -7px;
+    margin-right: 0px;
     background-image: linear-gradient(to bottom,#330066,#330099,#3300CC);
-        }
-        
+}
+
+/*vertically aligning the paragraph heading*/
+.school-header p{
+    position:relative;
+    top:-10px;
+}
+
 .fix{clear: both;
-     }
+}
 
-
+/*navigation*/
 .site-tab li{
     list-style: none;
     float: left;
@@ -54,26 +60,26 @@
 
 body{
     background-image: linear-gradient(to right,#68ffa3,
-#8eff93	,
-#a9ff86	,
-#bfff7c	,
-#d0ff74	,
-#dfff77	,
-#ecff7a	,
-#f8fe7d	,
-#fffa7e	,
-#fff27c);
-   }
-   
-   .side-area1{
-       display:block;
-       color: black;
-      }
-      
-  
-   .side-area1 h2{
+        #8eff93	,
+        #a9ff86	,
+        #bfff7c	,
+        #d0ff74	,
+        #dfff77	,
+        #ecff7a	,
+        #f8fe7d	,
+        #fffa7e	,
+        #fff27c);
+}
+
+.side-area1{
+    display:block;
+    color: black;
+}
+
+/*side bar*/
+.side-area1 h2{
     height: 50px;
-    width: 300px;
+    width: 25%;
     color: whitesmoke;
     display: block;
     font-weight: bold;
@@ -85,7 +91,7 @@ body{
     margin-top: 70px;
     margin-left: -375px;
     float: left;
-     }
+}
 
 
 .side-area1 p {
@@ -98,9 +104,9 @@ body{
     float: left;
     margin-left: -375px;
     margin-top: 140px;
-      z-index: 90;
-           }
-       
+    z-index: 90;
+}
+
 @-webkit-keyframes mymove {
     from {top: 0px;}
     to {top: 100px;}
@@ -112,20 +118,20 @@ body{
 }
 
 .side-area1 img.BACK1{
-     height: 30%;
-       width: 23.3%;
-       z-index:6;
-       transform: translate(-375px,142px);
+    height: 30%;
+    width: 23.3%;
+    z-index:6;
+    transform: translate(-375px,142px);
 }
 
 
- .side-area2{
-       display:block;
-       color: black;
-      }
-      
-  
-   .side-area2 h2{
+.side-area2{
+    display:block;
+    color: black;
+}
+
+
+.side-area2 h2{
     height: 50px;
     width: 300px;
     color: whitesmoke;
@@ -139,7 +145,7 @@ body{
     margin-top: 180px;
     margin-left: -315px;
     float: left;
-   }
+}
 
 
 .side-area2 p {
@@ -152,9 +158,9 @@ body{
     float: left;
     margin-left: -315px;
     margin-top: 250px;
-      z-index: 100;
-           }
-       
+    z-index: 100;
+}
+
 @-webkit-keyframes mymove {
     from {top: 0px;}
     to {top: 100px;}
@@ -166,10 +172,10 @@ body{
 }
 
 .side-area2 img.BACK2{
-     height: 30%;
-       width: 23.3%;
-       z-index:10;
-       transform: translate(-315px,252px);
+    height: 30%;
+    width: 23.3%;
+    z-index:10;
+    transform: translate(-315px,252px);
 }
 
 .auto-tab li{
@@ -182,14 +188,14 @@ body{
 .auto-tab ul{
     margin: 0;
     padding: 0;
-  }
+}
 
 .auto-tab{
     margin-top: -287px;
     margin-left:500px;
-   }
-   
-    .auto-tab a{
+}
+
+.auto-tab a{
     display: block;
     color: #e6ffe6;
     background-image: linear-gradient(to left,#6600ff,#0099ff);
@@ -198,20 +204,20 @@ body{
     border:3px solid black;
     padding:135px 115px;
     border-radius: 15px 50px;
-           }
-   
-  
+}
+
+
 .auto-tab a:hover{
     background-image: linear-gradient(to left,#0047b3,#3d0099);
     color: white;
 }
 
 .bottom{
-        background-color: #707070;
-        color: #ffffcc; 
-        margin-top: 690px;
-        height: 200px;
-        width: 100%;
+    background-color: #707070;
+    color: #ffffcc; 
+    margin-top: 690px;
+    height: 200px;
+    width: 100%;
 }
 .contact{
     float: left;
@@ -231,7 +237,7 @@ footer p{
     color: #330099;
     font-weight: bold;
     background-color: #C8C8C8;
-     margin-top:-25px;
+    margin-top:-25px;
 }
 footer h3{
     text-align: center;
