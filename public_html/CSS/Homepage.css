@@ -7,7 +7,7 @@
 .school-header {
     padding-top: 75px;
     text-align: center;
-    color: black;
+    color: #ffffcc;
     float: left;
     font-size: 300%;
     font-weight: bold;
@@ -39,7 +39,8 @@
 
 .site-tab a{
     display: block;
-    color: #000033;
+    color: #ffffcc;
+    background-color: #336600;
     font-weight: bold;
     text-decoration: none;
     border:3px solid black;
@@ -47,7 +48,7 @@
 }
 
 .site-tab a:hover{
-    background-color: #43d37b;
+    background-color: #003300;
     color: white;
 }
 
@@ -174,28 +175,69 @@ body{
 .auto-tab li{
     list-style: none;
     float: left;
-    margin-right: 10px;
+    margin-right: 80px;
+    margin-bottom: 80px;
 }
 
 .auto-tab ul{
     margin: 0;
     padding: 0;
-}
+  }
 
 .auto-tab{
-    margin-top: 10px;
-}
-
-.auto-tab a{
+    margin-top: -287px;
+    margin-left:500px;
+   }
+   
+    .auto-tab a{
     display: block;
-    color: #000033;
+    color: #e6ffe6;
+    background-image: linear-gradient(to left,#6600ff,#0099ff);
     font-weight: bold;
     text-decoration: none;
     border:3px solid black;
-    padding:10px 20px;
+    padding:135px 115px;
+    border-radius: 15px 50px;
+           }
+   
+  
+.auto-tab a:hover{
+    background-image: linear-gradient(to left,#0047b3,#3d0099);
+    color: white;
 }
 
-.auto-tab a:hover{
-    background-color: #43d37b;
-    color: white;
+.bottom{
+        background-color: #707070;
+        color: #ffffcc; 
+        margin-top: 690px;
+        height: 200px;
+        width: 100%;
+}
+.contact{
+    float: left;
+    margin-left: -1250px;
+}
+.Faculties{
+    float: left;
+    margin-left: -700px;
+}
+.Social{
+    float: left;
+    margin-left: 480px;
+    margin-top: -75px;
+}
+footer p{
+    text-align: center;
+    color: #330099;
+    font-weight: bold;
+    background-color: #C8C8C8;
+     margin-top:-25px;
+}
+footer h3{
+    text-align: center;
+    color:black;
+    font-weight: bolder;
+    font-size: 150%;
+    background-color: #C8C8C8;
+    margin-top:-10px;
 }
