@@ -192,14 +192,37 @@ body{
     .auto-tab a{
     display: block;
     color: #e6ffe6;
-    background-image: linear-gradient(to left,#6600ff,#0099ff);
     font-weight: bold;
     text-decoration: none;
-    border:3px solid black;
-    padding:135px 115px;
-    border-radius: 15px 50px;
-           }
-   
+      }
+    
+    .light a{
+           padding: 135px 115px;   
+           background-image: linear-gradient(to left,#6600ff,#0099ff);
+           border:3px solid black;
+           border-radius: 15px 50px;
+     }
+      
+    .fan a{
+          padding: 135px 125.38px;
+          background-image: linear-gradient(to left,#6600ff,#0099ff);
+          border:3px solid black;
+          border-radius: 15px 50px;
+     }
+    
+     .lock a{
+           padding: 126px 103.89px;
+           background-image: linear-gradient(to left,#6600ff,#0099ff);
+           border:3px solid black;
+           border-radius: 15px 50px;
+     }
+     
+     .other a{
+           padding: 135px 115px;
+           background-image: linear-gradient(to left,#6600ff,#0099ff);
+           border:3px solid black;
+           border-radius: 15px 50px;
+     }
   
 .auto-tab a:hover{
     background-image: linear-gradient(to left,#0047b3,#3d0099);
@@ -213,19 +236,23 @@ body{
         height: 200px;
         width: 100%;
 }
+
 .contact{
     float: left;
     margin-left: -1250px;
 }
+
 .Faculties{
     float: left;
     margin-left: -700px;
 }
+
 .Social{
     float: left;
     margin-left: 480px;
-    margin-top: -75px;
+    margin-top: -55px;
 }
+
 footer p{
     text-align: center;
     color: #330099;
@@ -233,11 +260,84 @@ footer p{
     background-color: #C8C8C8;
      margin-top:-25px;
 }
+
 footer h3{
     text-align: center;
     color:black;
     font-weight: bolder;
     font-size: 150%;
     background-color: #C8C8C8;
-    margin-top:-10px;
+    margin-top:-40px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {display:none;}
+
+.slider.round {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider.round:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider.round {
+  background-color: #2196F3;
+}
+
+input:focus + .slider.round {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider.round:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.lighttog{
+           margin-left: 500px;
+}
+
+.locktog{
+           margin-left: 500px;
+}
+
+.fantog{
+           margin-left:900px;
+}
+
+.othertog{
+           margin-left: 900px;
 }
